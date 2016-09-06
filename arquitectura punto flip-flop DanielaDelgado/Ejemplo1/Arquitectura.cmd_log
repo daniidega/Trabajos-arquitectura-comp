@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+xst -intstyle ise -ifn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.xst" -ofn "C:/Users/utp/Desktop/arquitectura/Ejemplo1/Arquitectura.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Arquitectura.ngc Arquitectura.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Arquitectura_map.ncd Arquitectura.ngd Arquitectura.pcf 
+par -w -intstyle ise -ol high -t 1 Arquitectura_map.ncd Arquitectura.ncd Arquitectura.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Arquitectura.twx Arquitectura.ncd -o Arquitectura.twr Arquitectura.pcf 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/utp/Desktop/arquitectura/Ejemplo1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/utp/Desktop/arquitectura/Ejemplo1/xst"
+elaborate
+-ifn Arquitectura.prj
+-ifmt mixed

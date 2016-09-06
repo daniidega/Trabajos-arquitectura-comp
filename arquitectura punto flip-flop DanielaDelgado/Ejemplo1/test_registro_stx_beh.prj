@@ -1,0 +1,2 @@
+vhdl isim_temp "Arquitectura.vhd"
+vhdl isim_temp "test_registro.vhd"
