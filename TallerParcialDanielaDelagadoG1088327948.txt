@@ -4,15 +4,14 @@ CC:1088327948
 
 1) 
 
-SISD:(sola instruccion, los datos individuales) termino que se refiere a una arquitectura de ordenador 
-en el que un unico procesador ejecuta una secuencia de instrucciones.
+SISD (SINGLE INSTRUCTION SINGLE DATA):(sola instruccion, los datos individuales) termino que se refiere a una arquitectura de ordenador 
+en el que un unico procesador ejecuta una secuencia de instrucciones estos cdispositvos se utilizan en microoprocesadores.
 
-SIMD: se le conoce como un arreglo de procesadores teniendo multiples procesadores que ejecutan la secuencia.
+SIMD((SINGLE INSTRUCTION MULTIPLE DATA): se le conoce como un arreglo de procesadores teniendo multiples procesadores que ejecutan la secuencia.
 
-MIMD: es un sistema con un flujo de multiples instrucciones que operan sobre los datos.
+MIMD(MULTIPLE INSTRUCTION MULTIPLE DATA): es un sistema con un flujo de multiples instrucciones que operan sobre los datos estos dispositvos se ultilizan en la arquitectura de sistemas aereos.
 
-MISD: es un tipo de arquitectura de computacion paralela donde muchas unidades funcionales utilizan diferentes 
-operaciones en los mismo datos.
+MISD(MULTIPLE INSTRUCTION SINGLE DATA): es un tipo de arquitectura de computacion paralela donde muchas unidades funcionales utilizan diferentes operaciones en los mismo datos estos diporistivos se utlizan en la arquitectura de sistemas distribuidos.
 -----------------------------------------------------------------------------------------------------------
 
 2) Diga cuales son los 4 principios de diseño.
