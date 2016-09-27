@@ -15,12 +15,12 @@ MISD: es un tipo de arquitectura de computacion paralela donde muchas unidades f
 operaciones en los mismo datos.
 -----------------------------------------------------------------------------------------------------------
 
-2) Diga cuales son los 4 principios de diseÒo.
+2) Diga cuales son los 4 principios de dise√±o.
 
 * La simplicidad favorece la regularidad
-* Entre m·s pequeÒo es m·s r·pido
-* Hacer el caso com˙n m·s r·pido
-* Buenos diseÒos demandan grandes compromisos
+* Entre m√°s peque√±o es m√°s r√°pido
+* Hacer el caso com√∫n m√°s r√°pido
+* Buenos dise√±os demandan grandes compromisos
 -----------------------------------------------------------------------------------------------------------
 
 3) Explique los tres formatos de instrucciones principales existentes en la arquitectura SPARCV8.
@@ -39,7 +39,7 @@ FORMATO #3 Lo utilizan las instrucciones memory instructions,arithmetic.logical,
 *OP  RD  OP3   RS1  i   UNSUED/ZERO  SHNCT
 ---------------------------------------------------------------------------------------------------------
 
-4) Explique cÛmo inicializar un valor grande, que ocupe m·s de 13 bits, en la arquitectura SPARCV8.}
+4) Explique c√≥mo inicializar un valor grande, que ocupe m√°s de 13 bits, en la arquitectura SPARCV8.}
 
 R) para incializar este tipo de variable se aplica la el complemento A2 que esto ayudara a obtener 
 los 22 bits con el fin de utilizar la instruccion SETHI que almacenara siempre los 22 bist.
@@ -47,7 +47,7 @@ los 22 bits con el fin de utilizar la instruccion SETHI que almacenara siempre l
 -----------------------------------------------------------------------------------------------------
 
 
-5) Como puedo reescribir la instrucciÛn (OR y SUBcc) cuando inicializo y  comparo 2 registros.
+5) Como puedo reescribir la instrucci√≥n (OR y SUBcc) cuando inicializo y  comparo 2 registros.
 
 R) se rescribe con la instruccion MOV para OR y CMP para SUBCC.
 
@@ -56,7 +56,7 @@ a)
 
 int main(){
 int a = 8;
-int b = ≠16800;
+int b = ¬≠16800;
 int c = 33;
 if((a+b)<=b*32){
 c=a+(b*2);
@@ -118,7 +118,7 @@ Ox0034       00	 00000	 100	0000000000000000000000
 b)
 int main(){
 int a = 8;
-int b = ≠10;
+int b = ¬≠10;
 if(a!=b){
 return c/8;
 }
@@ -168,7 +168,7 @@ Ox0024       00	 00000	 100	0000000000000000000000
 
 C)
 int main(){
-int a = ≠21180;
+int a = ¬≠21180;
 return a;
 }
 
@@ -236,11 +236,11 @@ Ox0024	     10	 01000	 000010	 00000	0   00000000	10100
 --------------------------------------------------------------------------------
 
 
-8) Convierta el siguiente cÛdigo a lenguaje de m·quina SPARCV8.
+8) Convierta el siguiente c√≥digo a lenguaje de m√°quina SPARCV8.
 
 int ejemplo(int x, int y, int z){     EJEMPLO
 int a;                                SUB %i0,%i1,%i3
-a = x ≠ y + z*8;                      SLL %i2,8,%i2
+a = x ¬≠ y + z*8;                      SLL %i2,8,%i2
 return a + 2;                         ADD %i3,%i2,%l1
                                       JMPL %O7,8,%g0
                                       ADD %L1,2,%O0
@@ -249,7 +249,7 @@ return a + 2;                         ADD %i3,%i2,%l1
 } 
 
 int main(){                            MAIN
-int x = 4, y = 2, z = ≠128;            MOV 4,%L0
+int x = 4, y = 2, z = ¬≠128;            MOV 4,%L0
 int c= 0;                              MOV 2,%L1
 int c = ejemplo(x,y,z);                MOV -128,%L2
 return c + 45;                         CALL EJEMPLO
@@ -282,22 +282,46 @@ direcciones  op   RD     op3     Rs1    i  unusued/zero  Rs2
 Ox0034	     10	 10000	000010	00000	1    0000000000000
 Ox0038	     10	 01001	000010	00000	1   00000000	10000	
 ------------------------------------------------------------------------------------------
-9) Implemente una funciÛn mul en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
-lenguaje de m·quina SPARCV8 que realice la multiplicaciÛn de dos enteros sin signo usando
+9) Implemente una funci√≥n mul en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
+lenguaje de m√°quina SPARCV8 que realice la multiplicaci√≥n de dos enteros sin signo usando
 solo sumas.
 
-10) Implemente la funciÛn pot en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
-lenguaje de m·quina SPARCV8 que realice la potencia de dos n˙meros enteros sin signo
-realizando llamados a la funciÛn desarrollada en el punto 9.
+10) Implemente la funci√≥n pot en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
+lenguaje de m√°quina SPARCV8 que realice la potencia de dos n√∫meros enteros sin signo
+realizando llamados a la funci√≥n desarrollada en el punto 9.
 
-11) Implemente una funciÛn pol en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
-lenguaje de m·quina SPARCV8 que calcule un polinomio de grado n, en donde los coeficientes
+
+int potencia (int x , int y){
+    int i,pot=1;
+    if(y==0){
+             return 1;
+             }
+             else{ for(i=1;i<=y;i++){
+                   pot= pot*x;
+                   }
+                   return pot;
+                   }
+                   }
+
+
+int main(){
+      int p=2, q=2,r=0;
+      r=potencia(p,q);
+      return r;
+      
+      }
+
+
+
+
+11) Implemente una funci√≥n pol en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
+lenguaje de m√°quina SPARCV8 que calcule un polinomio de grado n, en donde los coeficientes
 del polinomio se encuentran almacenados en un vector k de n+1 posiciones, de la siguientes
 forma:
 
 
-12) Implemente una funciÛn fact en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
-lenguaje de m·quina SPARCV8 que calcule el factorial de un n˙mero entero sin signo
+12) Implemente una funci√≥n fact en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
+lenguaje de m√°quina SPARCV8 que calcule el factorial de un n√∫mero entero sin signo
 
-13) Implemente una funciÛn divint en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
-lenguaje de m·quina SPARCV8 que calcule la divisiÛn entera entre dos n˙meros enteros.
+13) Implemente una funci√≥n divint en lenguaje de alto nivel, lenguaje de bajo nivel SPARCV8 y
+lenguaje de m√°quina SPARCV8 que calcule la divisi√≥n entera entre dos n√∫meros enteros.
