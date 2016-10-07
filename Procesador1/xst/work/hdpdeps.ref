@@ -1,0 +1,16 @@
+V3 6
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/nPC.vhd 2016/10/07.14:47:29 P.20131013
+EN work/nPC 1475871491 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/nPC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nPC/Behavioral 1475871492 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/nPC.vhd \
+      EN work/nPC 1475871491
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd 2016/10/07.15:43:43 P.20131013
+EN work/sumdOr 1475873029 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumdOr/Behavioral 1475873030 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd \
+      EN work/sumdOr 1475873029
