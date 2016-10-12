@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.12 secs
  
 --> Reading design: sumdOr.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -104,21 +104,22 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd" in Library work.
-Entity <sumdor> compiled.
-Entity <sumdOr> (Architecture <Behavioral>) compiled.
+WARNING:HDLParsers:3607 - Unit work/sumdOr is now defined in a different file.  It was defined in "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd", and is now defined in "C:/Users/Juli/Desktop/Procesador1/sumdOr.vhd".
+WARNING:HDLParsers:3607 - Unit work/sumdOr/Behavioral is now defined in a different file.  It was defined in "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd", and is now defined in "C:/Users/Juli/Desktop/Procesador1/sumdOr.vhd".
+Compiling vhdl file "C:/Users/Juli/Desktop/Procesador1/sumdOr.vhd" in Library work.
+Architecture behavioral of Entity sumdor is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <sumdOr> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <sumdOr> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <sumdOr> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:819 - "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+Analyzing Entity <sumdOr> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/Juli/Desktop/Procesador1/sumdOr.vhd" line 45: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <variable1>
 Entity <sumdOr> analyzed. Unit <sumdOr> generated.
 
@@ -130,7 +131,7 @@ Entity <sumdOr> analyzed. Unit <sumdOr> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <sumdOr>.
-    Related source file is "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd".
+    Related source file is "C:/Users/Juli/Desktop/Procesador1/sumdOr.vhd".
     Found 32-bit adder for signal <salida>.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -315,13 +316,13 @@ Delay:               8.401ns (Levels of Logic = 35)
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.07 secs
+Total CPU time to Xst completion: 4.00 secs
  
 --> 
 
-Total memory usage is 289780 kilobytes
+Total memory usage is 289564 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

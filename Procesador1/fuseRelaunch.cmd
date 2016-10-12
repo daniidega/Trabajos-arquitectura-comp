@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumador_isim_beh.exe" -prj "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumador_beh.prj" "work.sumador" 
+-intstyle "ise" -incremental -o "C:/Users/Juli/Desktop/Procesador1/sumador_isim_beh.exe" -prj "C:/Users/Juli/Desktop/Procesador1/sumador_beh.prj" "work.sumador" 

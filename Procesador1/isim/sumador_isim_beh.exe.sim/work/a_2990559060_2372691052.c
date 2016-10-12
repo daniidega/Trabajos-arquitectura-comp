@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumador.vhd";
+static const char *ng0 = "C:/Users/Juli/Desktop/Procesador1/sumador.vhd";
 
 
 
@@ -44,7 +44,7 @@ LAB0:    t1 = (t0 + 2512U);
 LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(76, ng0);
-    t2 = (t0 + 5020);
+    t2 = (t0 + 4864);
     t4 = (t0 + 2896);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -53,7 +53,7 @@ LAB2:    xsi_set_current_line(76, ng0);
     memcpy(t8, t2, 32U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(77, ng0);
-    t2 = (t0 + 5052);
+    t2 = (t0 + 4896);
     t4 = (t0 + 2960);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -70,7 +70,7 @@ LAB6:    *((char **)t1) = &&LAB7;
 
 LAB1:    return;
 LAB4:    xsi_set_current_line(80, ng0);
-    t2 = (t0 + 5084);
+    t2 = (t0 + 4928);
     t4 = (t0 + 2960);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -91,7 +91,7 @@ LAB5:    goto LAB4;
 LAB7:    goto LAB5;
 
 LAB8:    xsi_set_current_line(83, ng0);
-    t2 = (t0 + 5116);
+    t2 = (t0 + 4960);
     t4 = (t0 + 2960);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);

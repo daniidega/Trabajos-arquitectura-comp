@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-JULIAN-PC::  Fri Oct 07 15:44:02 2016
+JULIAN-PC::  Wed Oct 12 15:42:07 2016
 
 par -w -intstyle ise -ol high -t 1 sumdOr_map.ncd sumdOr.ncd sumdOr.pcf 
 
@@ -76,25 +76,25 @@ Phase 6.36  Local Placement Optimization (Checksum:184d) REAL time: 1 secs
 
 Phase 7.3  Local Placement Optimization
 ...
-Phase 7.3  Local Placement Optimization (Checksum:8df0c474) REAL time: 2 secs 
+Phase 7.3  Local Placement Optimization (Checksum:8df0c474) REAL time: 1 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:8df0c474) REAL time: 2 secs 
+Phase 8.5  Local Placement Optimization (Checksum:8df0c474) REAL time: 1 secs 
 
 Phase 9.8  Global Placement
 ..
-Phase 9.8  Global Placement (Checksum:b239bd7c) REAL time: 2 secs 
+Phase 9.8  Global Placement (Checksum:b239bd7c) REAL time: 1 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:b239bd7c) REAL time: 2 secs 
+Phase 10.5  Local Placement Optimization (Checksum:b239bd7c) REAL time: 1 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:7a5916c2) REAL time: 2 secs 
+Phase 11.18  Placement Optimization (Checksum:7a5916c2) REAL time: 1 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:7a5916c2) REAL time: 2 secs 
+Phase 12.5  Local Placement Optimization (Checksum:7a5916c2) REAL time: 1 secs 
 
-Total REAL time to Placer completion: 2 secs 
+Total REAL time to Placer completion: 1 secs 
 Total CPU  time to Placer completion: 1 secs 
 Writing design to file sumdOr.ncd
 
@@ -103,11 +103,11 @@ Writing design to file sumdOr.ncd
 Starting Router
 
 
-Phase  1  : 112 unrouted;      REAL time: 5 secs 
+Phase  1  : 112 unrouted;      REAL time: 4 secs 
 
-Phase  2  : 112 unrouted;      REAL time: 5 secs 
+Phase  2  : 112 unrouted;      REAL time: 4 secs 
 
-Phase  3  : 14 unrouted;      REAL time: 5 secs 
+Phase  3  : 14 unrouted;      REAL time: 4 secs 
 
 Phase  4  : 14 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
@@ -124,7 +124,7 @@ Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5
 Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
 Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 5 secs 
+Total CPU time to Router completion: 4 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -143,7 +143,7 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 6 secs 
+Total REAL time to PAR completion: 5 secs 
 Total CPU time to PAR completion: 5 secs 
 
 Peak Memory Usage:  296 MB
