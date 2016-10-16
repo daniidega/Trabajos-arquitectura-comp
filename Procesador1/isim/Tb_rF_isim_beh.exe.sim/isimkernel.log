@@ -2,14 +2,14 @@ Command line:
    Tb_rF_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  51815
+     -socket  64050
 
-Wed Oct 12 16:02:21 2016
+Sun Oct 16 15:04:44 2016
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 842.281 Meg
+ Current Memory Usage: 841.765 Meg
 
  Total Signals          : 15
  Total Nets             : 1392
@@ -23,7 +23,7 @@ Total Line Count : 18
 
  Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 1156.85 Meg
+ Current Memory Usage: 841.765 Meg
 
-Wed Oct 12 16:02:51 2016
+Sun Oct 16 15:05:02 2016
 

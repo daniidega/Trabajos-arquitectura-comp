@@ -25,7 +25,7 @@ extern char *STD_TEXTIO;
 static const char *ng1 = "fila";
 extern char *STD_STANDARD;
 extern char *IEEE_P_2592010699;
-static const char *ng4 = "C:/Users/Juli/Desktop/Procesador1/iM.vhd";
+static const char *ng4 = "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/iM.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_2592010699_sub_393209765_503743352(char *, char *, char *, char *);

@@ -90,8 +90,8 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;
 		reset <='0';
-		rfuente1<="10000";
-		rfuente2<="10001";
+		rfuente1<="10001";
+		rfuente2<="10010";
 		rdestino<="00000";
 		data    <="10011000000000000000000000000000";		
 

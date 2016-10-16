@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/xst"
+elaborate
+-ifn aLU.prj
+-ifmt mixed

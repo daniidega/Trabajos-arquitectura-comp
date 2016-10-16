@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-JULIAN-PC::  Wed Oct 12 15:42:07 2016
+JULIAN-PC::  Sun Oct 16 13:42:21 2016
 
 par -w -intstyle ise -ol high -t 1 sumdOr_map.ncd sumdOr.ncd sumdOr.pcf 
 
@@ -53,7 +53,7 @@ Finished initial Timing Analysis.  REAL time: 1 secs
 
 Starting Placer
 Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 0 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:184d) REAL time: 1 secs 
@@ -109,9 +109,9 @@ Phase  2  : 112 unrouted;      REAL time: 4 secs
 
 Phase  3  : 14 unrouted;      REAL time: 4 secs 
 
-Phase  4  : 14 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 14 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: sumdOr.ncd with current fully routed design.
 

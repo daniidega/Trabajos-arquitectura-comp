@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    23:03:00 10/08/2016 
+-- Create Date:    14:45:40 10/16/2016 
 -- Design Name: 
--- Module Name:    nPc - Behavioral 
+-- Module Name:    nPC - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,28 +29,29 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity nPc is
+entity nPC is
     Port ( senal : in  STD_LOGIC_VECTOR (31 downto 0);
            reset : in  STD_LOGIC;
            clk : in  STD_LOGIC;
            salida : out  STD_LOGIC_VECTOR (31 downto 0));
-end nPc;
+end nPC;
 
-architecture Behavioral of nPc is
+architecture Behavioral of nPC is
 
 signal variable1: std_logic_vector(31 downto 0):=(others=>'0');
 
 begin
-			process(reset,clk,senal)
-			begin
-						if reset='1' then
-									salida<=variable1;
-						else
-									if rising_edge(clk) then
-												salida<=senal;
-									end if;
-						end if;
+		process(reset,clk,senal)
+		begin
+					if reset='1' then
+								salida<=variable1;
+					else
+								if rising_edge(clk) then
+											salida<=senal;
+								end if;
+					end if;
 			end process;
+
 
 
 end Behavioral;

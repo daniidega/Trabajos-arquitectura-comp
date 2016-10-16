@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/Juli/Desktop/Procesador1/rF.vhd";
+static const char *ng0 = "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/rF.vhd";
 extern char *IEEE_P_3620187407;
 
 unsigned char ieee_p_3620187407_sub_4042748798_3965413181(char *, char *, char *, char *, char *);
@@ -69,7 +69,7 @@ LAB4:    xsi_set_current_line(62, ng0);
     t2 = *((char **)t1);
     t1 = (t0 + 1032U);
     t5 = *((char **)t1);
-    t1 = (t0 + 6068U);
+    t1 = (t0 + 6308U);
     t13 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t5, t1);
     t14 = (t13 - 0);
     t11 = (t14 * 1);
@@ -89,7 +89,7 @@ LAB4:    xsi_set_current_line(62, ng0);
     t2 = *((char **)t1);
     t1 = (t0 + 1192U);
     t5 = *((char **)t1);
-    t1 = (t0 + 6084U);
+    t1 = (t0 + 6324U);
     t13 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t5, t1);
     t14 = (t13 - 0);
     t11 = (t14 * 1);
@@ -151,7 +151,7 @@ LAB2:    xsi_set_current_line(58, ng0);
     t1 = xsi_get_transient_memory(1280U);
     memset(t1, 0, 1280U);
     t2 = t1;
-    t5 = (t0 + 7532);
+    t5 = (t0 + 7772);
     t3 = (32U != 0);
     if (t3 == 1)
         goto LAB5;
@@ -174,7 +174,7 @@ LAB7:    xsi_set_current_line(67, ng0);
     t10 = *((char **)t9);
     t9 = (t0 + 1672U);
     t12 = *((char **)t9);
-    t9 = (t0 + 6116U);
+    t9 = (t0 + 6356U);
     t14 = ieee_p_3620187407_sub_514432868_3965413181(IEEE_P_3620187407, t12, t9);
     t20 = (t14 - 0);
     t11 = (t20 * 1);
@@ -188,7 +188,7 @@ LAB7:    xsi_set_current_line(67, ng0);
     memcpy(t25, t10, 32U);
     xsi_driver_first_trans_delta(t21, t16, 32U, 0LL);
     xsi_set_current_line(68, ng0);
-    t1 = (t0 + 7569);
+    t1 = (t0 + 7809);
     t3 = (32U != 32U);
     if (t3 == 1)
         goto LAB13;
@@ -204,8 +204,8 @@ LAB14:    t5 = (t0 + 3840);
 
 LAB10:    t1 = (t0 + 1672U);
     t5 = *((char **)t1);
-    t1 = (t0 + 6116U);
-    t6 = (t0 + 7564);
+    t1 = (t0 + 6356U);
+    t6 = (t0 + 7804);
     t8 = (t18 + 0U);
     t9 = (t8 + 0U);
     *((int *)t9) = 0;

@@ -7,15 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/sumdOr - Behavioral C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|sumdOr.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>iM - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/iM.vhd)</SelectedItem>
+         <SelectedItem>uC - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/uC.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000010e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000010e0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>iM - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/iM.vhd)</CurrentItem>
+      <CurrentItem>uC - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/uC.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -75,11 +76,15 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Tb_aLU - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_aLU.vhd</ClosedNode>
          <ClosedNode>/Tb_iM - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_iM.vhd</ClosedNode>
          <ClosedNode>/Tb_iM - behavior C:|Users|Juli|Desktop|Procesador1|Tb_iM.vhd</ClosedNode>
          <ClosedNode>/Tb_iM - behavior E:|procesadores|Procesador1|Tb_iM.vhd</ClosedNode>
+         <ClosedNode>/Tb_nPC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_nPC.vhd</ClosedNode>
          <ClosedNode>/Tb_rF - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_rF.vhd</ClosedNode>
          <ClosedNode>/Tb_rF - behavior C:|Users|Juli|Desktop|Procesador1|Tb_rF.vhd</ClosedNode>
+         <ClosedNode>/Tb_uC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_uC.vhd</ClosedNode>
+         <ClosedNode>/Tb_uc - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|Tb_uC.vhd</ClosedNode>
          <ClosedNode>/nPC_1 - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|Procesador1|nPC_1.vhd</ClosedNode>
          <ClosedNode>/nPC_1 - behavior C:|Users|Juli|Desktop|Procesador1|nPC_1.vhd</ClosedNode>
          <ClosedNode>/nPC_1 - behavior E:|procesadores|Procesador1|nPC_1.vhd</ClosedNode>
@@ -89,13 +94,13 @@
          <ClosedNode>/sumador - behavior E:|procesadores|Procesador1|sumador.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+         <SelectedItem>Tb_iM - behavior (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/Tb_iM.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000fd000000020000000000000000000000000200000064ffffffff000000810000000300000002000000fd0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+      <CurrentItem>Tb_iM - behavior (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/Tb_iM.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -126,4 +131,17 @@
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
 </Project>
