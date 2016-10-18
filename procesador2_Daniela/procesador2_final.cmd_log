@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador2_final.ngc procesador2_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador2_final_map.ncd procesador2_final.ngd procesador2_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador2_final_map.ncd procesador2_final.ncd procesador2_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador2_final.twx procesador2_final.ncd -o procesador2_final.twr procesador2_final.pcf 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador2_final.ngc procesador2_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador2_final_map.ncd procesador2_final.ngd procesador2_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador2_final_map.ncd procesador2_final.ncd procesador2_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador2_final.twx procesador2_final.ncd -o procesador2_final.twr procesador2_final.pcf 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador2_final.ngc procesador2_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador2_final_map.ncd procesador2_final.ngd procesador2_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador2_final_map.ncd procesador2_final.ncd procesador2_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador2_final.twx procesador2_final.ncd -o procesador2_final.twr procesador2_final.pcf 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/procesador2_final.xst" -ofn "E:/d/procesador1_Daniela/procesador2_final.syr" 
