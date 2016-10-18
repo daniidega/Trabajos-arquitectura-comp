@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador1_Daniela -o H:/procesadores/procesador1_Daniela/uC.vhi -module uC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work uC.vhd 

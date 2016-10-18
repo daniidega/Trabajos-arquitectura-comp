@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador1_Daniela -o H:/procesadores/procesador1_Daniela/aLU.vhi -module aLU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work aLU.vhd 

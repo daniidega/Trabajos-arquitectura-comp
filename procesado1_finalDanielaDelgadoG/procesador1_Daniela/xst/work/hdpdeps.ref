@@ -1,0 +1,65 @@
+V3 41
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/aLU.vhd 2016/10/17.10:41:30 P.20131013
+EN work/aLU 1476825284 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/aLU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/aLU/Behavioral 1476825285 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/aLU.vhd \
+      EN work/aLU 1476825284
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/iM.vhd 2016/10/18.10:38:49 P.20131013
+EN work/iM 1476825278 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/iM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/iM/Behavioral 1476825279 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/iM.vhd \
+      EN work/iM 1476825278
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/nPC.vhd 2016/10/17.09:55:42 P.20131013
+EN work/nPC 1476825276 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/nPC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nPC/Behavioral 1476825277 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/nPC.vhd \
+      EN work/nPC 1476825276
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.vhd 2016/10/18.10:30:16 P.20131013
+EN work/procesador_final 1476825286 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/procesador_final/Behavioral 1476825287 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.vhd \
+      EN work/procesador_final 1476825286 CP sumadOR CP nPC CP iM CP uC CP rF CP aLU
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/rF.vhd 2016/10/18.10:22:10 P.20131013
+EN work/rF 1476825282 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/rF.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rF/Behavioral 1476825283 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/rF.vhd \
+      EN work/rF 1476825282
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/sumadOR.vhd 2016/10/17.09:25:20 P.20131013
+EN work/sumadOR 1476825274 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/sumadOR.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumadOR/Behavioral 1476825275 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/sumadOR.vhd \
+      EN work/sumadOR 1476825274
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/uC.vhd 2016/10/17.10:31:40 P.20131013
+EN work/uC 1476825280 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/uC.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/uC/Behavioral 1476825281 \
+      FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/uC.vhd \
+      EN work/uC 1476825280
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/aLU.vhd 2016/10/17.10:41:30 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/iM.vhd 2016/10/18.10:30:44 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/nPC.vhd 2016/10/17.09:55:42 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/procesador_final.vhd 2016/10/18.10:30:16 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/rF.vhd 2016/10/18.10:22:10 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/sumadOR.vhd 2016/10/17.09:25:20 P.20131013
+FL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/uC.vhd 2016/10/17.10:31:40 P.20131013
+FL H:/procesadores/procesador1_Daniela/aLU.vhd 2016/10/17.10:41:30 P.20131013
+FL H:/procesadores/procesador1_Daniela/iM.vhd 2016/10/17.12:53:20 P.20131013
+FL H:/procesadores/procesador1_Daniela/nPC.vhd 2016/10/17.09:55:42 P.20131013
+FL H:/procesadores/procesador1_Daniela/procesador_final.vhd 2016/10/17.11:21:12 P.20131013
+FL H:/procesadores/procesador1_Daniela/rF.vhd 2016/10/17.10:26:46 P.20131013
+FL H:/procesadores/procesador1_Daniela/sumadOR.vhd 2016/10/17.09:25:20 P.20131013
+FL H:/procesadores/procesador1_Daniela/uC.vhd 2016/10/17.10:31:40 P.20131013

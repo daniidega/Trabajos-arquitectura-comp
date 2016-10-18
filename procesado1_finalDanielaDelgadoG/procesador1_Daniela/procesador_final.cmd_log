@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador_final.ngc procesador_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador_final_map.ncd procesador_final.ngd procesador_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador_final_map.ncd procesador_final.ncd procesador_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador_final.twx procesador_final.ncd -o procesador_final.twr procesador_final.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador_final.ngc procesador_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador_final_map.ncd procesador_final.ngd procesador_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador_final_map.ncd procesador_final.ncd procesador_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador_final.twx procesador_final.ncd -o procesador_final.twr procesador_final.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/procesador_final.xst" -ofn "H:/procesadores/procesador1_Daniela/procesador_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador_final.ngc procesador_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador_final_map.ncd procesador_final.ngd procesador_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador_final_map.ncd procesador_final.ncd procesador_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador_final.twx procesador_final.ncd -o procesador_final.twr procesador_final.pcf 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/procesador_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/procesador_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador1_Daniela/procesador_final.syr" 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.syr" 

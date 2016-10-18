@@ -1,0 +1,252 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml procesador_final.twx procesador_final.ncd -o
+procesador_final.twr procesador_final.pcf
+
+Design file:              procesador_final.ncd
+Physical constraint file: procesador_final.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+resultado<0> |   12.248(R)|clk_BUFGP         |   0.000|
+resultado<1> |   13.586(R)|clk_BUFGP         |   0.000|
+resultado<2> |   14.140(R)|clk_BUFGP         |   0.000|
+resultado<3> |   14.379(R)|clk_BUFGP         |   0.000|
+resultado<4> |   14.277(R)|clk_BUFGP         |   0.000|
+resultado<5> |   14.447(R)|clk_BUFGP         |   0.000|
+resultado<6> |   14.178(R)|clk_BUFGP         |   0.000|
+resultado<7> |   14.392(R)|clk_BUFGP         |   0.000|
+resultado<8> |   14.558(R)|clk_BUFGP         |   0.000|
+resultado<9> |   14.724(R)|clk_BUFGP         |   0.000|
+resultado<10>|   14.868(R)|clk_BUFGP         |   0.000|
+resultado<11>|   14.486(R)|clk_BUFGP         |   0.000|
+resultado<12>|   14.439(R)|clk_BUFGP         |   0.000|
+resultado<13>|   14.544(R)|clk_BUFGP         |   0.000|
+resultado<14>|   14.218(R)|clk_BUFGP         |   0.000|
+resultado<15>|   14.415(R)|clk_BUFGP         |   0.000|
+resultado<16>|   14.899(R)|clk_BUFGP         |   0.000|
+resultado<17>|   14.512(R)|clk_BUFGP         |   0.000|
+resultado<18>|   14.788(R)|clk_BUFGP         |   0.000|
+resultado<19>|   14.904(R)|clk_BUFGP         |   0.000|
+resultado<20>|   15.004(R)|clk_BUFGP         |   0.000|
+resultado<21>|   15.840(R)|clk_BUFGP         |   0.000|
+resultado<22>|   15.313(R)|clk_BUFGP         |   0.000|
+resultado<23>|   15.451(R)|clk_BUFGP         |   0.000|
+resultado<24>|   15.347(R)|clk_BUFGP         |   0.000|
+resultado<25>|   14.961(R)|clk_BUFGP         |   0.000|
+resultado<26>|   15.758(R)|clk_BUFGP         |   0.000|
+resultado<27>|   15.642(R)|clk_BUFGP         |   0.000|
+resultado<28>|   15.708(R)|clk_BUFGP         |   0.000|
+resultado<29>|   15.664(R)|clk_BUFGP         |   0.000|
+resultado<30>|   15.146(R)|clk_BUFGP         |   0.000|
+resultado<31>|   15.118(R)|clk_BUFGP         |   0.000|
+-------------+------------+------------------+--------+
+
+Clock reset to Pad
+-------------+------------+-------------------------+--------+
+             | clk (edge) |                         | Clock  |
+Destination  |   to PAD   |Internal Clock(s)        | Phase  |
+-------------+------------+-------------------------+--------+
+resultado<0> |   13.990(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   14.040(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.842(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<1> |   15.328(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   15.378(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   13.817(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<2> |   15.883(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   15.966(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.371(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<3> |   16.122(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.205(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.610(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<4> |   16.114(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.242(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.508(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<5> |   16.284(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.412(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.678(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<6> |   16.015(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.143(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.409(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<7> |   16.229(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.357(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.623(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<8> |   16.395(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.523(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.789(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<9> |   16.561(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.689(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.955(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<10>|   16.705(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.833(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.099(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<11>|   16.323(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.451(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.717(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<12>|   16.276(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.404(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.670(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<13>|   16.381(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.509(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.775(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<14>|   16.055(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.183(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.449(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<15>|   16.252(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.380(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.646(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<16>|   16.736(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.864(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.130(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<17>|   16.349(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.477(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   14.743(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<18>|   16.625(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.753(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.019(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<19>|   16.741(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.869(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.135(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<20>|   16.841(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.969(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.235(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<21>|   17.677(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.805(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   16.071(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<22>|   17.150(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.278(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.544(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<23>|   17.288(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.416(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.682(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<24>|   17.184(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.312(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.578(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<25>|   16.798(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   16.926(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.192(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<26>|   17.595(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.723(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.989(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<27>|   17.479(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.607(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.873(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<28>|   17.545(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.673(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.939(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<29>|   17.501(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.629(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.895(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<30>|   16.983(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.111(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.377(F)|Inst_rF/reg_1_not0000    |   0.000|
+resultado<31>|   16.955(F)|Inst_rF/reg_0_cmp_eq0000 |   0.000|
+             |   17.083(F)|Inst_rF/reg_16_cmp_eq0000|   0.000|
+             |   15.349(F)|Inst_rF/reg_1_not0000    |   0.000|
+-------------+------------+-------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.784|         |         |         |
+reset          |    1.536|    1.536|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    9.925|         |
+reset          |         |         |    5.461|    7.717|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reset          |resultado<0>   |   10.879|
+reset          |resultado<1>   |   12.217|
+reset          |resultado<2>   |   12.771|
+reset          |resultado<3>   |   13.010|
+reset          |resultado<4>   |   12.908|
+reset          |resultado<5>   |   13.078|
+reset          |resultado<6>   |   12.809|
+reset          |resultado<7>   |   13.023|
+reset          |resultado<8>   |   13.189|
+reset          |resultado<9>   |   13.355|
+reset          |resultado<10>  |   13.499|
+reset          |resultado<11>  |   13.117|
+reset          |resultado<12>  |   13.070|
+reset          |resultado<13>  |   13.175|
+reset          |resultado<14>  |   12.849|
+reset          |resultado<15>  |   13.046|
+reset          |resultado<16>  |   13.530|
+reset          |resultado<17>  |   13.143|
+reset          |resultado<18>  |   13.419|
+reset          |resultado<19>  |   13.535|
+reset          |resultado<20>  |   13.635|
+reset          |resultado<21>  |   14.471|
+reset          |resultado<22>  |   13.944|
+reset          |resultado<23>  |   14.082|
+reset          |resultado<24>  |   13.978|
+reset          |resultado<25>  |   13.592|
+reset          |resultado<26>  |   14.389|
+reset          |resultado<27>  |   14.273|
+reset          |resultado<28>  |   14.339|
+reset          |resultado<29>  |   14.295|
+reset          |resultado<30>  |   13.777|
+reset          |resultado<31>  |   13.749|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 17 12:54:03 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 178 MB
+
+
+

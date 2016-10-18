@@ -1,0 +1,14 @@
+EN procesador_final NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.vhd sub00/vhpl12 1476825286
+AR im behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/iM.vhd sub00/vhpl07 1476825279
+AR procesador_final behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/procesador_final.vhd sub00/vhpl13 1476825287
+AR npc behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/nPC.vhd sub00/vhpl05 1476825277
+EN im NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/iM.vhd sub00/vhpl06 1476825278
+AR sumador behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/sumadOR.vhd sub00/vhpl01 1476825275
+EN rf NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/rF.vhd sub00/vhpl10 1476825282
+AR uc behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/uC.vhd sub00/vhpl09 1476825281
+EN uc NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/uC.vhd sub00/vhpl08 1476825280
+EN npc NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/nPC.vhd sub00/vhpl04 1476825276
+AR alu behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/aLU.vhd sub00/vhpl03 1476825285
+EN sumador NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/sumadOR.vhd sub00/vhpl00 1476825274
+AR rf behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/rF.vhd sub00/vhpl11 1476825283
+EN alu NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesado1_finalDanielaDelgadoG/procesador1_Daniela/aLU.vhd sub00/vhpl02 1476825284
