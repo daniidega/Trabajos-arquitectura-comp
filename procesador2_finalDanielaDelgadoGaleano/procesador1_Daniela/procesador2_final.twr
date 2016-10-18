@@ -1,0 +1,171 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml procesador2_final.twx procesador2_final.ncd -o
+procesador2_final.twr procesador2_final.pcf
+
+Design file:              procesador2_final.ncd
+Physical constraint file: procesador2_final.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock reset to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+salida<0>   |   10.485(R)|reset_IBUF        |   0.000|
+            |   12.039(F)|reset_IBUF        |   0.000|
+salida<1>   |   10.548(R)|reset_IBUF        |   0.000|
+            |   12.253(F)|reset_IBUF        |   0.000|
+salida<2>   |   10.876(R)|reset_IBUF        |   0.000|
+            |   12.715(F)|reset_IBUF        |   0.000|
+salida<3>   |   11.343(R)|reset_IBUF        |   0.000|
+            |   13.182(F)|reset_IBUF        |   0.000|
+salida<4>   |   11.250(R)|reset_IBUF        |   0.000|
+            |   13.089(F)|reset_IBUF        |   0.000|
+salida<5>   |   11.169(R)|reset_IBUF        |   0.000|
+            |   13.008(F)|reset_IBUF        |   0.000|
+salida<6>   |   10.723(R)|reset_IBUF        |   0.000|
+            |   12.562(F)|reset_IBUF        |   0.000|
+salida<7>   |   11.347(R)|reset_IBUF        |   0.000|
+            |   13.186(F)|reset_IBUF        |   0.000|
+salida<8>   |   11.270(R)|reset_IBUF        |   0.000|
+            |   13.111(F)|reset_IBUF        |   0.000|
+salida<9>   |   11.328(R)|reset_IBUF        |   0.000|
+            |   13.169(F)|reset_IBUF        |   0.000|
+salida<10>  |   11.124(R)|reset_IBUF        |   0.000|
+            |   12.965(F)|reset_IBUF        |   0.000|
+salida<11>  |   10.432(R)|reset_IBUF        |   0.000|
+            |   12.273(F)|reset_IBUF        |   0.000|
+salida<12>  |   10.667(R)|reset_IBUF        |   0.000|
+            |   12.511(F)|reset_IBUF        |   0.000|
+salida<13>  |   11.041(R)|reset_IBUF        |   0.000|
+            |   12.885(F)|reset_IBUF        |   0.000|
+salida<14>  |   10.986(R)|reset_IBUF        |   0.000|
+            |   12.830(F)|reset_IBUF        |   0.000|
+salida<15>  |   11.010(R)|reset_IBUF        |   0.000|
+            |   12.854(F)|reset_IBUF        |   0.000|
+salida<16>  |   11.099(R)|reset_IBUF        |   0.000|
+            |   12.946(F)|reset_IBUF        |   0.000|
+salida<17>  |   10.781(R)|reset_IBUF        |   0.000|
+            |   12.628(F)|reset_IBUF        |   0.000|
+salida<18>  |   10.828(R)|reset_IBUF        |   0.000|
+            |   12.675(F)|reset_IBUF        |   0.000|
+salida<19>  |   11.062(R)|reset_IBUF        |   0.000|
+            |   12.909(F)|reset_IBUF        |   0.000|
+salida<20>  |   10.874(R)|reset_IBUF        |   0.000|
+            |   12.723(F)|reset_IBUF        |   0.000|
+salida<21>  |   10.899(R)|reset_IBUF        |   0.000|
+            |   12.748(F)|reset_IBUF        |   0.000|
+salida<22>  |   10.887(R)|reset_IBUF        |   0.000|
+            |   12.738(F)|reset_IBUF        |   0.000|
+salida<23>  |   11.154(R)|reset_IBUF        |   0.000|
+            |   13.005(F)|reset_IBUF        |   0.000|
+salida<24>  |   10.715(R)|reset_IBUF        |   0.000|
+            |   12.566(F)|reset_IBUF        |   0.000|
+salida<25>  |   11.265(R)|reset_IBUF        |   0.000|
+            |   13.116(F)|reset_IBUF        |   0.000|
+salida<26>  |   11.316(R)|reset_IBUF        |   0.000|
+            |   13.167(F)|reset_IBUF        |   0.000|
+salida<27>  |   11.209(R)|reset_IBUF        |   0.000|
+            |   13.060(F)|reset_IBUF        |   0.000|
+salida<28>  |   10.612(R)|reset_IBUF        |   0.000|
+            |   12.464(F)|reset_IBUF        |   0.000|
+salida<29>  |   10.801(R)|reset_IBUF        |   0.000|
+            |   12.653(F)|reset_IBUF        |   0.000|
+salida<30>  |   10.836(R)|reset_IBUF        |   0.000|
+            |   12.688(F)|reset_IBUF        |   0.000|
+salida<31>  |   11.179(R)|reset_IBUF        |   0.000|
+            |   13.031(F)|reset_IBUF        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+reset          |    1.503|    1.503|    5.890|    6.985|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reset          |salida<0>      |   10.292|
+reset          |salida<1>      |   10.506|
+reset          |salida<2>      |   10.968|
+reset          |salida<3>      |   11.435|
+reset          |salida<4>      |   11.342|
+reset          |salida<5>      |   11.261|
+reset          |salida<6>      |   10.815|
+reset          |salida<7>      |   11.439|
+reset          |salida<8>      |   11.362|
+reset          |salida<9>      |   11.420|
+reset          |salida<10>     |   11.216|
+reset          |salida<11>     |   10.524|
+reset          |salida<12>     |   10.759|
+reset          |salida<13>     |   11.133|
+reset          |salida<14>     |   11.078|
+reset          |salida<15>     |   11.102|
+reset          |salida<16>     |   11.308|
+reset          |salida<17>     |   10.990|
+reset          |salida<18>     |   11.037|
+reset          |salida<19>     |   11.271|
+reset          |salida<20>     |   11.083|
+reset          |salida<21>     |   11.108|
+reset          |salida<22>     |   11.096|
+reset          |salida<23>     |   11.363|
+reset          |salida<24>     |   10.924|
+reset          |salida<25>     |   11.474|
+reset          |salida<26>     |   11.525|
+reset          |salida<27>     |   11.418|
+reset          |salida<28>     |   10.821|
+reset          |salida<29>     |   11.010|
+reset          |salida<30>     |   11.045|
+reset          |salida<31>     |   11.388|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 18 11:48:13 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 178 MB
+
+
+

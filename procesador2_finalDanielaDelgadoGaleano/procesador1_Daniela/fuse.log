@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final_isim_beh.exe -prj E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final_beh.prj work.Tb_procesador2Final 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/uC.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/sumadOR.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/sEU.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/rF.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/nPC.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/mUX.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/iM.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/aLU.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd" into library work
+Parsing VHDL file "E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity sumadOR [sumador_default]
+Compiling architecture behavioral of entity nPC [npc_default]
+Compiling architecture behavioral of entity iM [im_default]
+Compiling architecture behavioral of entity uC [uc_default]
+Compiling architecture behavioral of entity rF [rf_default]
+Compiling architecture behavioral of entity mUX [mux_default]
+Compiling architecture behavioral of entity sEU [seu_default]
+Compiling architecture behavioral of entity aLU [alu_default]
+Compiling architecture behavioral of entity procesador2_final [procesador2_final_default]
+Compiling architecture behavior of entity tb_procesador2final
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final_isim_beh.exe
+Fuse Memory Usage: 34360 KB
+Fuse CPU Usage: 905 ms

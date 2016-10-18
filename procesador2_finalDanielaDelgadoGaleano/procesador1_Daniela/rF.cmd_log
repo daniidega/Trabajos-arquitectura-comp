@@ -1,0 +1,2 @@
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/rF.vhi -module rF -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work rF.vhd 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/rF.vhi -module rF -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work rF.vhd 
