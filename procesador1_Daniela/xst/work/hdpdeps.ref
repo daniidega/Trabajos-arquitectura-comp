@@ -1,0 +1,11 @@
+V3 6
+FL H:/procesadores/procesador1_Daniela/aLU.vhd 2016/10/17.10:41:30 P.20131013
+EN work/aLU 1476718891 FL H:/procesadores/procesador1_Daniela/aLU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/aLU/Behavioral 1476718892 \
+      FL H:/procesadores/procesador1_Daniela/aLU.vhd EN work/aLU 1476718891
+FL H:/procesadores/procesador1_Daniela/sumadOR.vhd 2016/10/17.09:25:20 P.20131013
+EN work/sumadOR 1476717844 FL H:/procesadores/procesador1_Daniela/sumadOR.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sumadOR/Behavioral 1476717845 \
+      FL H:/procesadores/procesador1_Daniela/sumadOR.vhd EN work/sumadOR 1476717844

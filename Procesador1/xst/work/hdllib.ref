@@ -1,6 +1,0 @@
-AR npc behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/nPC.vhd sub00/vhpl01 1476647482
-EN npc NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/nPC.vhd sub00/vhpl00 1476647481
-AR alu behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/aLU.vhd sub00/vhpl05 1476644065
-AR sumdor behavioral C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd sub00/vhpl03 1476643327
-EN sumdor NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/sumdOr.vhd sub00/vhpl02 1476643326
-EN alu NULL C:/Users/Juli/Desktop/Daniela/trabajoxilinx/Procesador1/aLU.vhd sub00/vhpl04 1476644064

@@ -1,0 +1,4 @@
+AR sumador behavioral H:/procesadores/procesador1_Daniela/sumadOR.vhd sub00/vhpl01 1476717845
+AR alu behavioral H:/procesadores/procesador1_Daniela/aLU.vhd sub00/vhpl03 1476718892
+EN sumador NULL H:/procesadores/procesador1_Daniela/sumadOR.vhd sub00/vhpl00 1476717844
+EN alu NULL H:/procesadores/procesador1_Daniela/aLU.vhd sub00/vhpl02 1476718891
