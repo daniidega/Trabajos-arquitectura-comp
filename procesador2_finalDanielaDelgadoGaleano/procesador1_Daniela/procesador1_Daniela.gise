@@ -161,6 +161,10 @@
     <transform xil_pn:end_ts="1476809711" xil_pn:in_ck="-2114438929637936035" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476809711">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tb_aLU.vhd"/>
       <outfile xil_pn:name="Tb_iM.vhd"/>
       <outfile xil_pn:name="Tb_nPC.vhd"/>
@@ -193,6 +197,11 @@
     <transform xil_pn:end_ts="1476809711" xil_pn:in_ck="-2114438929637936035" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476809711">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tb_aLU.vhd"/>
       <outfile xil_pn:name="Tb_iM.vhd"/>
       <outfile xil_pn:name="Tb_nPC.vhd"/>
@@ -213,7 +222,10 @@
     <transform xil_pn:end_ts="1476826539" xil_pn:in_ck="-2114438929637936035" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6442273411802862956" xil_pn:start_ts="1476826468">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tb_procesador2Final_beh.prj"/>
       <outfile xil_pn:name="Tb_procesador2Final_isim_beh.exe"/>
@@ -225,6 +237,7 @@
     <transform xil_pn:end_ts="1476826596" xil_pn:in_ck="6421006451641664842" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-180534465238614623" xil_pn:start_ts="1476826594">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Tb_procesador2Final_isim_beh.wdb"/>
@@ -263,6 +276,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="aLU.ngr"/>
@@ -287,6 +302,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>

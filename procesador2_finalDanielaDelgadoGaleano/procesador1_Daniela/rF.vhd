@@ -55,7 +55,7 @@ begin
 				miregistro <= (others => x"00000000");
 			else
 				crs1 <= miregistro(conv_integer(registros1));--asigna al registro fuente 1 a la alu
-				crs2 <= miregistro(conv_integer(registros1));--debe ir al multiplexor para compararse con el inmediato
+				crs2 <= miregistro(conv_integer(registros2));--debe ir al multiplexor para compararse con el inmediato
 				
 				
 			if(rdestino  /= "000000")then

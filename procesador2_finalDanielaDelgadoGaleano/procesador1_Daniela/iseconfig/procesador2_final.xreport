@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-18T16:28:40</DateModified>
+  <DateModified>2016-10-25T16:13:54</DateModified>
   <ModuleName>procesador2_final</ModuleName>
   <SummaryTimeStamp>2016-10-18T11:48:27</SummaryTimeStamp>
-  <SavedFilePath>E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/iseconfig/procesador2_final.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/iseconfig/procesador2_final.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela\</ImplementationReportsDirectory>
   <DateInitialized>2016-10-17T15:38:18</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -8,31 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/aLU.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/iM.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/mUX.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/nPC.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/rF.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/sEU.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/sumadOR.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/uC.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/rF.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

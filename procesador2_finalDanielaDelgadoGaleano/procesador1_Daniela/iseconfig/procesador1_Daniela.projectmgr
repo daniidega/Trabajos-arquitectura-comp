@@ -11,13 +11,13 @@
          <ClosedNode>/Tb_sEU - behavior H:|procesadores|procesador1_Daniela|Tb_sEU.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>procesador2_final - Behavioral (E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd)</SelectedItem>
+         <SelectedItem>Inst_rF - rF - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/rF.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017b0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>procesador2_final - Behavioral (E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd)</CurrentItem>
+      <CurrentItem>Inst_rF - rF - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/rF.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -26,13 +26,13 @@
          <ClosedNode>Implement Design</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -58,7 +58,7 @@
       <CurrentItem>work</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
@@ -87,13 +87,13 @@
          <ClosedNode>/Tb_uC - behavior E:|d|procesador1_Daniela|Tb_uC.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Tb_procesador2Final - behavior (E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final.vhd)</SelectedItem>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000193000000020000000000000000000000000200000064ffffffff000000810000000300000002000001930000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Tb_procesador2Final - behavior (E:/d/procesador2_finalDanielaDelgadoGaleano/procesador1_Daniela/Tb_procesador2Final.vhd)</CurrentItem>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
