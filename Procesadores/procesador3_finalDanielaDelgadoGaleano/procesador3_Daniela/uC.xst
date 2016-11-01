@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/xst"
+elaborate
+-ifn uC.prj
+-ifmt mixed

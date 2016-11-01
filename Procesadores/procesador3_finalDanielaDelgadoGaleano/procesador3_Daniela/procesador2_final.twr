@@ -1,0 +1,380 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml procesador2_final.twx procesador2_final.ncd -o
+procesador2_final.twr procesador2_final.pcf
+
+Design file:              procesador2_final.ncd
+Physical constraint file: procesador2_final.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+salida<0>   |   16.960(R)|clk_BUFGP         |   0.000|
+salida<1>   |   18.776(R)|clk_BUFGP         |   0.000|
+salida<2>   |   19.436(R)|clk_BUFGP         |   0.000|
+salida<3>   |   20.065(R)|clk_BUFGP         |   0.000|
+salida<4>   |   19.889(R)|clk_BUFGP         |   0.000|
+salida<5>   |   18.721(R)|clk_BUFGP         |   0.000|
+salida<6>   |   19.177(R)|clk_BUFGP         |   0.000|
+salida<7>   |   19.364(R)|clk_BUFGP         |   0.000|
+salida<8>   |   18.865(R)|clk_BUFGP         |   0.000|
+salida<9>   |   18.983(R)|clk_BUFGP         |   0.000|
+salida<10>  |   20.013(R)|clk_BUFGP         |   0.000|
+salida<11>  |   19.312(R)|clk_BUFGP         |   0.000|
+salida<12>  |   18.611(R)|clk_BUFGP         |   0.000|
+salida<13>  |   19.478(R)|clk_BUFGP         |   0.000|
+salida<14>  |   19.333(R)|clk_BUFGP         |   0.000|
+salida<15>  |   19.453(R)|clk_BUFGP         |   0.000|
+salida<16>  |   18.554(R)|clk_BUFGP         |   0.000|
+salida<17>  |   19.078(R)|clk_BUFGP         |   0.000|
+salida<18>  |   19.491(R)|clk_BUFGP         |   0.000|
+salida<19>  |   19.885(R)|clk_BUFGP         |   0.000|
+salida<20>  |   19.530(R)|clk_BUFGP         |   0.000|
+salida<21>  |   19.843(R)|clk_BUFGP         |   0.000|
+salida<22>  |   19.244(R)|clk_BUFGP         |   0.000|
+salida<23>  |   19.525(R)|clk_BUFGP         |   0.000|
+salida<24>  |   20.635(R)|clk_BUFGP         |   0.000|
+salida<25>  |   20.342(R)|clk_BUFGP         |   0.000|
+salida<26>  |   19.923(R)|clk_BUFGP         |   0.000|
+salida<27>  |   20.560(R)|clk_BUFGP         |   0.000|
+salida<28>  |   20.131(R)|clk_BUFGP         |   0.000|
+salida<29>  |   20.390(R)|clk_BUFGP         |   0.000|
+salida<30>  |   19.717(R)|clk_BUFGP         |   0.000|
+salida<31>  |   20.645(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock reset to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+salida<0>   |   21.597(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   20.842(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   21.019(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   20.767(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   20.637(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   20.456(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   14.889(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<1>   |   23.428(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.658(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.835(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.651(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.453(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.359(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.687(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<2>   |   23.263(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.672(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.820(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.703(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.471(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.415(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.729(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<3>   |   23.801(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.301(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.319(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.332(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.116(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.896(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.207(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<4>   |   23.625(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.125(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.143(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.156(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.157(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.720(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.885(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<5>   |   22.457(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   21.957(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   21.975(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   21.988(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   21.989(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.552(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   15.717(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<6>   |   22.913(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.413(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.431(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.444(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.445(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.008(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.173(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<7>   |   23.100(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.600(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.618(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.631(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.632(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.195(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.360(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<8>   |   22.601(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.101(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.119(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.132(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.133(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.696(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   15.861(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<9>   |   22.719(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.219(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.237(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.250(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.251(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.814(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   15.979(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<10>  |   23.749(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.249(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.267(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.280(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.281(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.844(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.009(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<11>  |   23.048(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.548(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.566(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.579(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.580(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.143(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.308(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<12>  |   22.370(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   21.870(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   21.886(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   21.906(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   21.905(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.465(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   15.607(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<13>  |   23.237(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.737(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.753(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.773(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.772(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.332(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.474(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<14>  |   23.092(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.592(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.609(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.628(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.628(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.187(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.329(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<15>  |   23.212(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.712(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.729(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.748(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.748(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.307(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.449(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<16>  |   22.313(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   21.813(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   21.830(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   21.849(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   21.849(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.408(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   15.550(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<17>  |   22.837(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.337(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.354(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.373(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.373(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   21.932(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.074(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<18>  |   23.250(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.750(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.767(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.786(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.786(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.345(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.487(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<19>  |   23.644(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.144(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.161(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.180(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.180(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.739(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.881(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<20>  |   23.289(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.789(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.806(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.825(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.825(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.384(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.526(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<21>  |   23.602(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.102(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.119(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.138(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.138(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.697(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.839(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<22>  |   23.003(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.503(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.520(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.539(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.539(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.098(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.240(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<23>  |   23.284(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.784(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.801(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   22.820(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   22.820(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.379(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.521(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<24>  |   24.394(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.894(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.911(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.930(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.930(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   23.489(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.631(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<25>  |   24.101(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.601(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.618(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.637(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.637(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   23.196(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.338(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<26>  |   23.682(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.182(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.199(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.218(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.218(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.777(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.919(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<27>  |   24.319(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.819(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.836(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.855(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.855(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   23.414(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.556(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<28>  |   23.890(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.390(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.407(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.426(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.426(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.985(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.127(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<29>  |   24.149(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.649(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.666(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.685(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.685(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   23.244(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.386(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<30>  |   23.476(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   22.976(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   22.993(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.012(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.012(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   22.571(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   16.713(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+salida<31>  |   24.404(F)|Inst_rF/miregistro_0_cmp_eq0000 |   0.000|
+            |   23.904(F)|Inst_rF/miregistro_16_cmp_eq0000|   0.000|
+            |   23.921(F)|Inst_rF/miregistro_17_cmp_eq0000|   0.000|
+            |   23.940(F)|Inst_rF/miregistro_24_cmp_eq0000|   0.000|
+            |   23.940(F)|Inst_rF/miregistro_25_cmp_eq0000|   0.000|
+            |   23.499(F)|Inst_rF/miregistro_8_cmp_eq0000 |   0.000|
+            |   17.641(F)|Inst_uC/salidaout_cmp_eq0000    |   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.761|         |         |         |
+reset          |    2.685|    2.685|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |   14.791|         |
+reset          |         |         |    8.227|   10.252|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+reset          |salida<0>      |   15.836|
+reset          |salida<1>      |   17.655|
+reset          |salida<2>      |   18.369|
+reset          |salida<3>      |   18.998|
+reset          |salida<4>      |   18.822|
+reset          |salida<5>      |   17.654|
+reset          |salida<6>      |   18.110|
+reset          |salida<7>      |   18.297|
+reset          |salida<8>      |   17.798|
+reset          |salida<9>      |   17.916|
+reset          |salida<10>     |   18.946|
+reset          |salida<11>     |   18.245|
+reset          |salida<12>     |   17.544|
+reset          |salida<13>     |   18.411|
+reset          |salida<14>     |   18.266|
+reset          |salida<15>     |   18.386|
+reset          |salida<16>     |   17.487|
+reset          |salida<17>     |   18.011|
+reset          |salida<18>     |   18.424|
+reset          |salida<19>     |   18.818|
+reset          |salida<20>     |   18.463|
+reset          |salida<21>     |   18.776|
+reset          |salida<22>     |   18.177|
+reset          |salida<23>     |   18.458|
+reset          |salida<24>     |   19.568|
+reset          |salida<25>     |   19.275|
+reset          |salida<26>     |   18.856|
+reset          |salida<27>     |   19.493|
+reset          |salida<28>     |   19.064|
+reset          |salida<29>     |   19.323|
+reset          |salida<30>     |   18.650|
+reset          |salida<31>     |   19.578|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 31 12:25:04 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 198 MB
+
+
+

@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador3_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador3_final.syr" 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador3_final.ngc procesador3_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador3_final_map.ncd procesador3_final.ngd procesador3_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador3_final_map.ncd procesador3_final.ncd procesador3_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador3_final.twx procesador3_final.ncd -o procesador3_final.twr procesador3_final.pcf 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador3_final.ngc procesador3_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador3_final_map.ncd procesador3_final.ngd procesador3_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador3_final_map.ncd procesador3_final.ncd procesador3_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador3_final.twx procesador3_final.ncd -o procesador3_final.twr procesador3_final.pcf 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 procesador3_final.ngc procesador3_final.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador3_final_map.ncd procesador3_final.ngd procesador3_final.pcf 
+par -w -intstyle ise -ol high -t 1 procesador3_final_map.ncd procesador3_final.ncd procesador3_final.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml procesador3_final.twx procesador3_final.ncd -o procesador3_final.twr procesador3_final.pcf 
+xst -intstyle ise -ifn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.xst" -ofn "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/procesador3_final.syr" 

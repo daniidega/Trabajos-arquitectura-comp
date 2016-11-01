@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+xst -intstyle ise -ifn "H:/procesadores/procesador1_Daniela/sumadOR.xst" -ofn "H:/procesadores/procesador1_Daniela/sumadOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 sumadOR.ngc sumadOR.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumadOR_map.ncd sumadOR.ngd sumadOR.pcf 
+par -w -intstyle ise -ol high -t 1 sumadOR_map.ncd sumadOR.ncd sumadOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumadOR.twx sumadOR.ncd -o sumadOR.twr sumadOR.pcf 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/sumadOR.vhi -module sumadOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumadOR.vhd 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/sumadOR.vhi -module sumadOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumadOR.vhd 

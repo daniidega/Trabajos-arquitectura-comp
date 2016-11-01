@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador3_DanielaDelgado -o C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/pSR.vhi -module pSR -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pSR.vhd 

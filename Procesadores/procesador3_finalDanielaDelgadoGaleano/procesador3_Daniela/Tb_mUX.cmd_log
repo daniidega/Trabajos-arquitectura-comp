@@ -1,0 +1,4 @@
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/Tb_mUX.vhi -module Tb_mUX -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work H:/procesadores/procesador1_Daniela/mUX.vhd -lib work H:/procesadores/procesador1_Daniela/Tb_mUX.vhd 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/Tb_mUX.vhi -module Tb_mUX -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work H:/procesadores/procesador1_Daniela/mUX.vhd -lib work H:/procesadores/procesador1_Daniela/Tb_mUX.vhd 
+xst -intstyle ise -ifn "E:/d/procesador1_Daniela/Tb_mUX.xst" -ofn "E:/d/procesador1_Daniela/Tb_mUX.syr" 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/Tb_mUX.vhi -module Tb_mUX -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work H:/procesadores/procesador1_Daniela/mUX.vhd -lib work H:/procesadores/procesador1_Daniela/Tb_mUX.vhd 

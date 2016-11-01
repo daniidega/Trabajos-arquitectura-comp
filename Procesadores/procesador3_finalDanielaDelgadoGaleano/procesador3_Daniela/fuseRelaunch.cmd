@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Tb_procesador_isim_beh.exe" -prj "C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Tb_procesador_beh.prj" "work.Tb_procesador" 

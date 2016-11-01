@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="procesador3_DanielaDelgado" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/procesador2_final - Behavioral C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|procesador2_final.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Procesador3_finalDanielaDelgado - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Procesador3_finalDanielaDelgado.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000218000000020000000000000000000000000200000064ffffffff000000810000000300000002000002180000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Procesador3_finalDanielaDelgado - Behavioral (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Procesador3_finalDanielaDelgado.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View RTL Schematic</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View RTL Schematic</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009600000001000000000000004400000001000000000000006600000001000000000000013d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>aLU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Tb_aLU - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_aLU.vhd</ClosedNode>
+         <ClosedNode>/Tb_aLU - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_aLU.vhd</ClosedNode>
+         <ClosedNode>/Tb_aLU - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_aLU.vhd</ClosedNode>
+         <ClosedNode>/Tb_iM - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_iM.vhd</ClosedNode>
+         <ClosedNode>/Tb_iM - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_iM.vhd</ClosedNode>
+         <ClosedNode>/Tb_iM - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_iM.vhd</ClosedNode>
+         <ClosedNode>/Tb_nPC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_nPC.vhd</ClosedNode>
+         <ClosedNode>/Tb_nPC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_nPC.vhd</ClosedNode>
+         <ClosedNode>/Tb_nPC - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_nPC.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSR - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_pSR.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSR - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_pSR.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSR - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_pSR.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSRmodifier - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_pSRmodifier.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSRmodifier - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_pSRmodifier.vhd</ClosedNode>
+         <ClosedNode>/Tb_pSRmodifier - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_pSRmodifier.vhd</ClosedNode>
+         <ClosedNode>/Tb_procesador - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_procesador.vhd</ClosedNode>
+         <ClosedNode>/Tb_procesador2Final - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_procesador2Final.vhd</ClosedNode>
+         <ClosedNode>/Tb_procesador2Final - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_procesador2Final.vhd</ClosedNode>
+         <ClosedNode>/Tb_procesador2Final - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_procesador2Final.vhd</ClosedNode>
+         <ClosedNode>/Tb_rF - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_rF.vhd</ClosedNode>
+         <ClosedNode>/Tb_rF - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_rF.vhd</ClosedNode>
+         <ClosedNode>/Tb_rF - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_rF.vhd</ClosedNode>
+         <ClosedNode>/Tb_sumador - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_sumador.vhd</ClosedNode>
+         <ClosedNode>/Tb_sumador - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_sumador.vhd</ClosedNode>
+         <ClosedNode>/Tb_sumador - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_sumador.vhd</ClosedNode>
+         <ClosedNode>/Tb_uC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_uC.vhd</ClosedNode>
+         <ClosedNode>/Tb_uC - behavior C:|Users|Juli|Desktop|Daniela|trabajoxilinx|procesador3_finalDanielaDelgadoGaleano|procesador3_Daniela|Tb_uC.vhd</ClosedNode>
+         <ClosedNode>/Tb_uC - behavior C:|Users|Juli|Downloads|procesador2_finalDanielaDelgadoGaleano|procesador1_Daniela|Tb_uC.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Tb_procesador - behavior (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Tb_procesador.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000147000000020000000000000000000000000200000064ffffffff000000810000000300000002000001470000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Tb_procesador - behavior (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador3_Daniela/Tb_procesador.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>procesador2_final.vhd (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013d000000020000000000000000000000000000000064ffffffff000000810000000000000002000000cd0000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>procesador2_final.vhd (C:/Users/Juli/Desktop/Daniela/trabajoxilinx/procesador3_finalDanielaDelgadoGaleano/procesador1_Daniela/procesador2_final.vhd)</CurrentItem>
+   </ItemView>
+</Project>

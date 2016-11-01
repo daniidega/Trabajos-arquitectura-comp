@@ -1,0 +1,2 @@
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/sEU.vhi -module sEU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sEU.vhd -lib work H:/procesadores/procesador1_Daniela/sEU.vhd 
+vhdtdtfi -prj procesador1_Daniela -o E:/d/procesador1_Daniela/sEU.vhi -module sEU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work H:/procesadores/procesador1_Daniela/sEU.vhd -lib work sEU.vhd 
